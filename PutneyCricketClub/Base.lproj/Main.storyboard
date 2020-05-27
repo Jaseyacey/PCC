@@ -57,26 +57,14 @@
                     <view key="view" contentMode="scaleToFill" id="Q13-05-CcJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-mo-FkF">
-                                <rect key="frame" x="146" y="406" width="122" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="ZHt-mo-FkF" firstAttribute="centerY" secondItem="Q13-05-CcJ" secondAttribute="centerY" id="gyx-ju-VJx"/>
-                            <constraint firstItem="ZHt-mo-FkF" firstAttribute="centerX" secondItem="Q13-05-CcJ" secondAttribute="centerX" id="z65-yQ-cMO"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dKS-u5-EAE"/>
                     </view>
                     <navigationItem key="navigationItem" id="rXX-iH-Tpa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSy-4a-bfg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="761" y="139"/>
+            <point key="canvasLocation" x="760.86956521739137" y="138.61607142857142"/>
         </scene>
     </scenes>
     <resources>
