@@ -85,10 +85,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="63" translatesAutoresizingMaskIntoConstraints="NO" id="Pax-VV-KzH">
-                                <rect key="frame" x="156" y="230.66666666666663" width="102" height="381"/>
+                                <rect key="frame" x="145.66666666666666" y="175" width="122.99999999999997" height="492"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cs9-PI-rjR">
-                                        <rect key="frame" x="0.0" y="0.0" width="102" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="News"/>
                                         <connections>
@@ -96,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqb-J9-Zn0">
-                                        <rect key="frame" x="0.0" y="111.00000000000003" width="102" height="48"/>
+                                        <rect key="frame" x="0.0" y="111" width="123" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Fixtures"/>
                                         <connections>
@@ -104,7 +104,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wK-fk-dLb" userLabel="Events">
-                                        <rect key="frame" x="0.0" y="222.00000000000003" width="102" height="47.999999999999972"/>
+                                        <rect key="frame" x="0.0" y="222" width="123" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Events"/>
                                         <connections>
@@ -112,9 +112,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-4t-owg" userLabel="Stats">
-                                        <rect key="frame" x="0.0" y="333" width="102" height="48"/>
+                                        <rect key="frame" x="0.0" y="333" width="123" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Stats"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQo-mu-qXK" userLabel="Stats">
+                                        <rect key="frame" x="0.0" y="444" width="123" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Members"/>
+                                        <connections>
+                                            <segue destination="0DS-NX-JIL" kind="modal" identifier="Members" modalPresentationStyle="fullScreen" id="zZz-Bm-NBL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -131,6 +139,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NqG-hB-qYo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1283" y="-494"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SxO-rd-PMw">
+            <objects>
+                <viewController id="0DS-NX-JIL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LKF-yO-Qh9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Members" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOX-Aw-6pD">
+                                <rect key="frame" x="20" y="44" width="374" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="74C-jm-lkM" customClass="Members">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="74C-jm-lkM" firstAttribute="centerX" secondItem="LKF-yO-Qh9" secondAttribute="centerX" id="cck-HP-mz7"/>
+                            <constraint firstItem="74C-jm-lkM" firstAttribute="centerY" secondItem="LKF-yO-Qh9" secondAttribute="centerY" id="r0z-TZ-lpN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LSG-Qy-Atn"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="TJ4-hH-KbI" appends="YES" id="irz-cW-uXG"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Qy-91-fxU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FpY-5v-5gs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="TJ4-hH-KbI">
+                    <connections>
+                        <segue destination="9vR-ZE-Qr7" kind="show" id="keB-Sm-zdx"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2284" y="-494"/>
         </scene>
         <!--Title-->
         <scene sceneID="tSX-4r-b4k">
@@ -250,7 +301,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cUE-iF-2Oo"/>
+        <segue reference="keB-Sm-zdx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="splash" width="301" height="355"/>
