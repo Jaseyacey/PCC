@@ -164,7 +164,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-523" y="212"/>
+            <point key="canvasLocation" x="-523.1884057971015" y="211.60714285714286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hDa-fJ-mQI">
@@ -226,17 +226,30 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AO-W3-nCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <command title="What is happening? " propertyListString="Friday Poker" menuElementState="on" id="GGU-bA-tkC" userLabel="What is happening?">
+                    <alternates>
+                        <commandAlternate title="Poker" id="c0K-Jl-hCJ">
+                            <nil key="actionName"/>
+                        </commandAlternate>
+                        <commandAlternate title="pool" id="ldH-zB-dDy">
+                            <nil key="actionName"/>
+                        </commandAlternate>
+                        <commandAlternate title="Quix" id="18s-YS-8Kv">
+                            <nil key="actionName"/>
+                        </commandAlternate>
+                    </alternates>
+                </command>
                 <swipeGestureRecognizer direction="right" id="bz3-oX-jEG">
                     <connections>
                         <segue destination="9vR-ZE-Qr7" kind="show" id="R1Z-Av-bTH"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1352" y="212"/>
+            <point key="canvasLocation" x="1350.7246376811595" y="211.60714285714286"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cUE-iF-2Oo"/>
+        <segue reference="R1Z-Av-bTH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="splash" width="301" height="355"/>
