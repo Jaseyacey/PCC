@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		C719269A247E1308000863B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7192698247E1308000863B1 /* Main.storyboard */; };
 		C719269C247E130B000863B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C719269B247E130B000863B1 /* Assets.xcassets */; };
 		C719269F247E130B000863B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C719269D247E130B000863B1 /* LaunchScreen.storyboard */; };
-		C71926A7247E1914000863B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C71926A6247E1914000863B1 /* GoogleService-Info.plist */; };
+		C72A5A94247E306C006FC3D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C72A5A93247E306C006FC3D9 /* GoogleService-Info.plist */; };
 		E7EE7226457ABA690AB7F6D4 /* Pods_PutneyCricketClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A13E77DFBDF65D0BE4406F /* Pods_PutneyCricketClub.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		C719269B247E130B000863B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C719269E247E130B000863B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71926A0247E130B000863B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C71926A6247E1914000863B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "PutneyCricketClub/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C72A5A93247E306C006FC3D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CD1E7D426C6422D8F68E6920 /* Pods-PutneyCricketClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutneyCricketClub.debug.xcconfig"; path = "Target Support Files/Pods-PutneyCricketClub/Pods-PutneyCricketClub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,6 @@
 				CD1E7D426C6422D8F68E6920 /* Pods-PutneyCricketClub.debug.xcconfig */,
 				49F117833B083238136E81D7 /* Pods-PutneyCricketClub.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -67,7 +66,6 @@
 			children = (
 				C7192691247E1308000863B1 /* PutneyCricketClub */,
 				C7192690247E1308000863B1 /* Products */,
-				C71926A6247E1914000863B1 /* GoogleService-Info.plist */,
 				4F5AF91F16B21D2C46BE1FF1 /* Pods */,
 				286D2DC18459DB9E983F805E /* Frameworks */,
 			);
@@ -91,6 +89,7 @@
 				C719269B247E130B000863B1 /* Assets.xcassets */,
 				C719269D247E130B000863B1 /* LaunchScreen.storyboard */,
 				C71926A0247E130B000863B1 /* Info.plist */,
+				C72A5A93247E306C006FC3D9 /* GoogleService-Info.plist */,
 			);
 			path = PutneyCricketClub;
 			sourceTree = "<group>";
@@ -157,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C719269F247E130B000863B1 /* LaunchScreen.storyboard in Resources */,
-				C71926A7247E1914000863B1 /* GoogleService-Info.plist in Resources */,
+				C72A5A94247E306C006FC3D9 /* GoogleService-Info.plist in Resources */,
 				C719269C247E130B000863B1 /* Assets.xcassets in Resources */,
 				C719269A247E1308000863B1 /* Main.storyboard in Resources */,
 			);

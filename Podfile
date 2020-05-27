@@ -8,4 +8,5 @@ target 'PutneyCricketClub' do
   # Pods for PutneyCricketClub
 	pod 'Firebase/Core'
 	pod 'FirebaseUI/Auth'
+  pod "FirebaseUI/Email"
 end

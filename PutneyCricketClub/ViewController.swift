@@ -18,25 +18,26 @@ class ViewController: UIViewController {
 
 // Login Button Below
     @IBAction func loginTapped(_ sender: UIButton) {
-        //        print("Button depressed good luck")
-        
-        // Get the default Auth UI
-        let authUI = FUIAuth.defaultAuthUI()
-        
-        guard authUI != nil else {
-            // Log the error
-            return
+        // Get the default Auth UI Object
+            let authUI = FUIAuth.defaultAuthUI()
+            
+            guard authUI != nil else {
+                // Log the error
+                return
+            }
+            
+            // Set ourselves as the delegate
+            authUI?.delegate = self
+            
+            
+            // Get a reference to the auth UI view contoller
+            let authViewController = authUI?.authViewController()
+            
+            // Show it.
+            present(authViewController!, animated: true, completion: nil)
         }
         
-        // Set ourselves at the delegate
-        authUI?.delegate = self
-        
-        // Get a reference to the Auth UI View Controller
-        let authViewController = authUI!.authViewController()
-        
-        // Show it
-        present(authViewController, animated: true, completion: nil)
-    }
+        @IBAction func unwindToLogin(segue: UIStoryboardSegue) {}
 }
 extension ViewController: FUIAuthDelegate {
     
