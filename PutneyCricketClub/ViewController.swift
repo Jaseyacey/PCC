@@ -40,6 +40,11 @@ class ViewController: UIViewController {
         
         @IBAction func unwindToLogin(segue: UIStoryboardSegue) {}
 }
+
+// Navigation functionality
+        // logo to navigation
+    
+
 extension ViewController: FUIAuthDelegate {
     
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
