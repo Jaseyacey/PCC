@@ -51,7 +51,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6MK-St-f8d"/>
+                                            <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="exE-Zz-uxe"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -64,10 +64,41 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="zv4-7Q-jd6" kind="show" identifier="goHome" id="dw0-UU-dGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+            <point key="canvasLocation" x="316" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EJE-O7-Fbe">
+            <objects>
+                <viewController id="zv4-7Q-jd6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q13-05-CcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-mo-FkF">
+                                <rect key="frame" x="146" y="406" width="122" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZHt-mo-FkF" firstAttribute="centerY" secondItem="Q13-05-CcJ" secondAttribute="centerY" id="gyx-ju-VJx"/>
+                            <constraint firstItem="ZHt-mo-FkF" firstAttribute="centerX" secondItem="Q13-05-CcJ" secondAttribute="centerX" id="z65-yQ-cMO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dKS-u5-EAE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rXX-iH-Tpa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oSy-4a-bfg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="138.61607142857142"/>
         </scene>
     </scenes>
     <resources>

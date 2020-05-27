@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import  FirebaseUI
 
 class ViewController: UIViewController {
 
@@ -15,9 +16,37 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func loginButton(_ sender: Any) {
-        print("Button depressed good luck")
+// Login Button Below
+    @IBAction func loginButton(_ sender: UIButton) {
+//        print("Button depressed good luck")
+        
+        // Get the default Auth UI
+        let authUI = FUIAuth.defaultAuthUI()
+        
+        guard authUI != nil else {
+            // Log the error
+            return
+        }
+        
+        // Set ourselves at the delegate
+        authUI?.delegate = self
+        
+        // Get a reference to the Auth UI View Controller
+        let authViewController = authUI!.authViewController()
+        
+        // Show it
+        present(authViewController, animated: true, completion: nil)
     }
-    
-}
 
+}
+extension ViewController: FUIAuthDelegate {
+    
+    func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
+        
+        // Check if there was an error?
+        guard error == nil else {
+            // Log the error
+            return
+        }
+    }
+}
