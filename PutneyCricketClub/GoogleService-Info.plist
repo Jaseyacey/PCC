@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>936709074884-8k10c0nap9kv7tfk99ga5jt83tlukacd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.936709074884-8k10c0nap9kv7tfk99ga5jt83tlukacd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZURd1DTdFlqom1BT8bWljShJw7O0ObhM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>936709074884</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>putneyCricketClub</string>
+	<key>PROJECT_ID</key>
+	<string>pcc1870-1d162</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pcc1870-1d162.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:936709074884:ios:69c34752123a8878f33e91</string>
+	<key>DATABASE_URL</key>
+	<string>https://pcc1870-1d162.firebaseio.com</string>
+</dict>
+</plist>

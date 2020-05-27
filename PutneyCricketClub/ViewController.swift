@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loginButton(_ sender: Any) {
+        print("Button depressed good luck")
+    }
+    
 }
 

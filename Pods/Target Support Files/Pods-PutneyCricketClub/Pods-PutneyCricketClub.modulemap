@@ -1,0 +1,6 @@
+framework module Pods_PutneyCricketClub {
+  umbrella header "Pods-PutneyCricketClub-umbrella.h"
+
+  export *
+  module * { export * }
+}
