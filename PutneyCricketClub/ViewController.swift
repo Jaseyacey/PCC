@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import  FirebaseUI
+import FirebaseUI
 
 class ViewController: UIViewController {
 
@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     }
 
 // Login Button Below
-    @IBAction func loginButton(_ sender: UIButton) {
-//        print("Button depressed good luck")
+    @IBAction func loginTapped(_ sender: UIButton) {
+        //        print("Button depressed good luck")
         
         // Get the default Auth UI
         let authUI = FUIAuth.defaultAuthUI()
@@ -37,7 +37,6 @@ class ViewController: UIViewController {
         // Show it
         present(authViewController, animated: true, completion: nil)
     }
-
 }
 extension ViewController: FUIAuthDelegate {
     
@@ -48,5 +47,7 @@ extension ViewController: FUIAuthDelegate {
             // Log the error
             return
         }
+//        AuthDataResult?.user.uid
+        performSegue(withIdentifier: "goHome", sender: self)
     }
 }
