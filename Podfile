@@ -9,4 +9,5 @@ target 'PutneyCricketClub' do
 	pod 'Firebase/Core'
 	pod 'FirebaseUI/Auth'
   pod "FirebaseUI/Email"
+  
 end
