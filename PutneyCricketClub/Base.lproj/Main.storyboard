@@ -132,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="1283" y="-494"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="tSX-4r-b4k">
             <objects>
                 <viewController id="C4J-zH-EA8" sceneMemberID="viewController">
@@ -156,6 +156,7 @@
                             <outletCollection property="gestureRecognizers" destination="FbG-5Y-7zi" appends="YES" id="PHe-0G-W8Y"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="UON-px-xgV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uax-27-uUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="FbG-5Y-7zi">
@@ -249,7 +250,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="R1Z-Av-bTH"/>
+        <segue reference="cUE-iF-2Oo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="splash" width="301" height="355"/>
