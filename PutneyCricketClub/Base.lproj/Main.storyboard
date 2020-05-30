@@ -220,7 +220,7 @@
             </objects>
             <point key="canvasLocation" x="-523.1884057971015" y="211.60714285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="hDa-fJ-mQI">
             <objects>
                 <viewController id="snv-rt-q3h" sceneMemberID="viewController">
@@ -236,13 +236,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfo-xN-f5d">
-                                <rect key="frame" x="20" y="150" width="374" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
@@ -251,6 +244,7 @@
                             <outletCollection property="gestureRecognizers" destination="vMC-Kr-bbS" appends="YES" id="8Rh-Ol-MAf"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="GRm-yU-S7Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QlR-iI-LR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="vMC-Kr-bbS">
@@ -259,7 +253,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="347.82608695652175" y="211.60714285714286"/>
+            <point key="canvasLocation" x="448" y="212"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rh3-3V-bdw">
