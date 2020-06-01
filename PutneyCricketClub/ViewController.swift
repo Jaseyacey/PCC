@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             guard authUI != nil else {
                 // Log the error
                 return
-            }
+            }   
             
             // Set ourselves as the delegate
             authUI?.delegate = self
