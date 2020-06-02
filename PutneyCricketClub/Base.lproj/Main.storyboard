@@ -462,7 +462,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aew-Lm-pD5">
                                 <rect key="frame" x="32" y="271" width="350" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">On Friday Nights we have a poker game.  The tournament is held in a private back room of Poker Stars. Download the free PokerStars software from http://www.pokerstars.uk   Open the main poker lobby, then click on the Home Games tab Click the 'Join a Poker Club' Button Enter the Club ID number: 3278431 Enter the Invitation Code: MPSGA123 The game normally starts at 8:45pm  </mutableString>
+                                <string key="text">On Friday Nights we have a poker game.  The tournament is held in a private back room of Poker Stars. Download the free PokerStars software from http://www.pokerstars.uk   Open the main poker lobby, then click on the Home Games tab Click the 'Join a Poker Club' Button Enter the Club ID number: 3278431 Enter the Invitation Code: MPSGA123 The game normally starts at 8:45pm  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -478,7 +478,7 @@
                                 <rect key="frame" x="32" y="568" width="350" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">As we are allowed to have a net in accordance with the ECB guidelines.  Only t wo to a net and must maintian a safe distance at all times.  </string>
+                                <string key="text">As we are allowed to have a net in accordance with the ECB guidelines.  Only two to a net and must maintian a safe distance at all times.  </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
