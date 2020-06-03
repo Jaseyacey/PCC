@@ -18,11 +18,16 @@ class ViewController: UIViewController {
        
         // Declaring the Database
         let db = Firestore.firestore()
-           db.collection ("Members").addDocument(data:
+           db.collection ("members").addDocument(data:
            [
            "FirstName" : "Jason",
            "LastName":"Beedle",
            "Nickname": "Truckfist275",
+           "Overs Bowled": 210,
+           "Runs": 973,
+           "Maidens": 21,
+           "Wickets": 48,
+           "Average": 20.27,
            ])
     }
 }
