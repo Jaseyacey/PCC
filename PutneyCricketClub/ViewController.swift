@@ -30,5 +30,8 @@ class ViewController: UIViewController {
            "Average": 20.27,
            ])
     }
+    class UITableViewController : UIViewController {
+        
+    }
 }
 
