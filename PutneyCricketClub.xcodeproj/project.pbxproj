@@ -85,9 +85,9 @@
 				C7192692247E1308000863B1 /* AppDelegate.swift */,
 				C7192694247E1308000863B1 /* SceneDelegate.swift */,
 				C7192696247E1308000863B1 /* ViewController.swift */,
-				C7192698247E1308000863B1 /* Main.storyboard */,
 				C719269B247E130B000863B1 /* Assets.xcassets */,
 				C719269D247E130B000863B1 /* LaunchScreen.storyboard */,
+				C7192698247E1308000863B1 /* Main.storyboard */,
 				C71926A0247E130B000863B1 /* Info.plist */,
 				C72A5A93247E306C006FC3D9 /* GoogleService-Info.plist */,
 			);
